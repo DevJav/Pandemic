@@ -28,8 +28,8 @@ class Pandemic():
         prov_roles = ["Medic", "Analist", "Scientist", "Quarantine Specialist", "Researcher", "Dispatcher", "Operations Expert", "Contingency Planner"]
         self.players = [Player(prov_roles[i]) for i in range(n_players)]
 
-        df = pd.read_csv('map.csv', sep=',', header=0)
-        # df = pd.read_csv('test_map.csv', sep=',', header=0)
+        df = pd.read_csv('data/map.csv', sep=',', header=0)
+        # df = pd.read_csv('data/test_map.csv', sep=',', header=0)
 
         cities = df['City'].tolist()
         diseases = df['Disease'].tolist()
