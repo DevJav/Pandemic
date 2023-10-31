@@ -1,0 +1,41 @@
+City Name,Disease Color,Connections,X,Y
+Atlanta,Blue,"Chicago, Washington, Miami",442,431
+Chicago,Blue,"San Francisco, Montreal, Atlanta",232,269
+Washington,Blue,"Atlanta, Montreal, Miami, New York",599,396
+San Francisco,Blue,"Chicago, Los Angeles, Tokyo, Manila",71,521
+Montreal,Blue,"Chicago, Washington, New York",667,275
+Miami,Yellow,"Atlanta, Washington, Bogota, Mexico City",497,632
+New York,Yellow,"Montreal, Washington, London, Madrid",649,311
+Los Angeles,Yellow,"San Francisco, Chicago, Mexico City, Sydney",80,623
+Bogota,Yellow,"Miami, Sao Paulo, Buenos Aires, Lima",482,654
+Mexico City,Yellow,"Miami, Los Angeles, Chicago, Bogota, Lima",289,677
+Lima,Yellow,"Mexico City, Bogota, Santiago",233,629
+Buenos Aires,Yellow,"Bogota, Sao Paulo",469,766
+London,Red,"New York, Madrid, Paris, Essen",736,237
+Madrid,Red,"New York, London, Paris, Sao Paulo, Algiers",703,312
+Paris,Red,"London, Madrid, Essen, Milan, Algiers",749,301
+Essen,Red,"London, Paris, Milan, St. Petersburg",780,253
+Milan,Red,"Paris, Essen, Istanbul",794,406
+St Petersburg,Red,"Essen, Istanbul, Moscow",838,172
+Moscow,Black,"St. Petersburg, Istanbul, Tehran",770,161
+Istanbul,Black,"Milan, St. Petersburg, Moscow, Cairo, Baghdad",792,224
+Tehran,Black,"Moscow, Delhi, Karachi",875,276
+Baghdad,Black,"Istanbul, Cairo, Riyadh, Khartoum",808,312
+Cairo,Black,"Istanbul, Baghdad, Riyadh, Khartoum",815,328
+Riyadh,Black,"Baghdad, Cairo, Karachi",826,355
+Karachi,Black,"Tehran, Baghdad, Riyadh, Delhi, Mumbai",850,378
+Mumbai,Black,"Karachi, Delhi, Chennai",877,401
+Delhi,Black,"Tehran, Karachi, Mumbai, Chennai, Kolkata",895,377
+Chennai,Black,"Mumbai, Delhi, Kolkata, Bangkok, Jakarta",916,417
+Kolkata,Black,"Delhi, Chennai, Bangkok, Hong Kong",932,351
+Bangkok,Red,"Kolkata, Chennai, Hong Kong, Ho Chi Minh City, Jakarta",1002,402
+Jakarta,Red,"Chennai, Bangkok, Ho Chi Minh City, Sydney",1034,418
+Ho Chi Minh City,Red,"Bangkok, Jakarta, Hong Kong, Manila",1056,408
+Manila,Red,"Hong Kong, Ho Chi Minh City, Sydney, San Francisco",1094,429
+Sydney,Red,"Jakarta, Manila, Los Angeles",1150,109
+Tokyo,Red,"Seoul, Shanghai, Osaka, San Francisco",58,361
+Seoul,Red,"Tokyo, Beijing, Shanghai",35,316
+Shanghai,Red,"Seoul, Tokyo, Beijing, Taipei, Hong Kong",109,294
+Beijing,Red,"Seoul, Shanghai, Tokyo",125,279
+Taipei,Red,"Shanghai, Hong Kong",147,228
+Hong Kong,Red,"Taipei, Shanghai, Ho Chi Minh City, Bangkok, Kolkata",137,192
