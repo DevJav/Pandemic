@@ -1,41 +1,49 @@
-City,Disease,Connections
-Atlanta,Blue,"Chicago, Washington, Miami"
-Chicago,Blue,"San Francisco, Montreal, Atlanta"
-Washington,Blue,"Atlanta, Montreal, Miami, New York"
-San Francisco,Blue,"Chicago, Los Angeles, Tokyo, Manila"
-Montreal,Blue,"Chicago, Washington, New York"
-Miami,Yellow,"Atlanta, Washington, Bogota, Mexico City"
-New York,Yellow,"Montreal, Washington, London, Madrid"
-Los Angeles,Yellow,"San Francisco, Chicago, Mexico City, Sydney"
-Bogota,Yellow,"Miami, Sao Paulo, Buenos Aires, Lima"
-Mexico City,Yellow,"Miami, Los Angeles, Chicago, Bogota, Lima"
-Lima,Yellow,"Mexico City, Bogota, Santiago"
-Buenos Aires,Yellow,"Bogota, Sao Paulo"
-London,Red,"New York, Madrid, Paris, Essen"
-Madrid,Red,"New York, London, Paris, Sao Paulo, Algiers"
-Paris,Red,"London, Madrid, Essen, Milan, Algiers"
-Essen,Red,"London, Paris, Milan, St. Petersburg"
-Milan,Red,"Paris, Essen, Istanbul"
-St. Petersburg,Red,"Essen, Istanbul, Moscow"
-Moscow,Black,"St. Petersburg, Istanbul, Tehran"
-Istanbul,Black,"Milan, St. Petersburg, Moscow, Cairo, Baghdad"
-Tehran,Black,"Moscow, Delhi, Karachi"
-Cairo,Black,"Istanbul, Baghdad, Riyadh, Khartoum"
-Riyadh,Black,"Cairo, Baghdad, Karachi"
-Baghdad,Black,"Istanbul, Cairo, Riyadh, Karachi, Tehran"
-Karachi,Black,"Tehran, Baghdad, Riyadh, Delhi, Mumbai"
-Mumbai,Black,"Karachi, Delhi, Chennai"
-Delhi,Black,"Tehran, Karachi, Mumbai, Chennai, Kolkata"
-Chennai,Black,"Mumbai, Delhi, Kolkata, Bangkok, Jakarta"
-Kolkata,Black,"Delhi, Chennai, Bangkok, Hong Kong"
-Bangkok,Red,"Kolkata, Chennai, Hong Kong, Ho Chi Minh City, Jakarta"
-Jakarta,Red,"Chennai, Bangkok, Ho Chi Minh City, Sydney"
-Ho Chi Minh City,Red,"Bangkok, Jakarta, Hong Kong, Manila"
-Manila,Red,"Hong Kong, Ho Chi Minh City, Sydney, San Francisco"
-Sydney,Red,"Jakarta, Manila, Los Angeles"
-Tokyo,Red,"Seoul, Shanghai, Osaka, San Francisco"
-Seoul,Red,"Tokyo, Beijing, Shanghai"
-Shanghai,Red,"Seoul, Tokyo, Beijing, Taipei, Hong Kong"
-Beijing,Red,"Seoul, Shanghai, Tokyo"
-Taipei,Red,"Shanghai, Hong Kong"
-Hong Kong,Red,"Taipei, Shanghai, Ho Chi Minh City, Bangkok, Kolkata"
+City,Disease,Connections,X,Y
+Atlanta,Blue,"Chicago, Washington, Miami",284,475
+Chicago,Blue,"San Francisco, Montreal, Atlanta",241,426
+Washington,Blue,"Atlanta, Montreal, Miami, New York",375,479
+San Francisco,Blue,"Chicago, Los Angeles, Tokyo, Manila",157,450
+Montreal,Blue,"Chicago, Washington, New York",351,420
+New York,Blue,"Montreal, Washington, London, Madrid",416,414
+Miami,Yellow,"Atlanta, Washington, Bogota, Mexico City",341,525
+Los Angeles,Yellow,"San Francisco, Chicago, Mexico City, Sydney",168,519
+Bogota,Yellow,"Miami, Sao Paulo, Buenos Aires, Lima",341,610
+Mexico City,Yellow,"Miami, Los Angeles, Chicago, Bogota, Lima",259,547
+Lima,Yellow,"Mexico City, Bogota, Santiago",310,688
+Buenos Aires,Yellow,"Bogota, Sao Paulo",406,755
+Santiago,Yellow,Lima,329,815
+Sao Paulo,Yellow,"Buenos Aires, Bogota, Lagos, Madrid",460,680
+Lagos,Yellow,"Sao Paulo, Khartoum, Kinshasa",621,589
+Kinshasa,Yellow,"Lagos, Khartoum, Johannesburg",680,648
+Johannesburg,Yellow,"Kinshasa, Khartoum",726,726
+Khartoum,Yellow,"Cairo, Lagos, Kinshasa, Johannesburg",724,582
+London,Blue,"New York, Madrid, Paris, Essen",574,377
+Madrid,Blue,"New York, London, Paris, Sao Paulo, Algiers",571,451
+Paris,Blue,"London, Madrid, Essen, Milan, Algiers",644,418
+Essen,Blue,"London, Paris, Milan, St. Petersburg",664,351
+Milan,Blue,"Paris, Essen, Istanbul",700,398
+St. Petersburg,Blue,"Essen, Istanbul, Moscow",763,326
+Moscow,Black,"St. Petersburg, Istanbul, Tehran",819,408
+Istanbul,Black,"Milan, St. Petersburg, Moscow, Cairo, Baghdad",736,453
+Tehran,Black,"Moscow, Delhi, Karachi",858,435
+Cairo,Black,"Istanbul, Baghdad, Riyadh, Khartoum",727,509
+Algiers,Black,"Madrid, Paris, Istanbul, Cairo",630,490
+Riyadh,Black,"Cairo, Baghdad, Karachi",807,552
+Baghdad,Black,"Istanbul, Cairo, Riyadh, Karachi, Tehran",792,486
+Karachi,Black,"Tehran, Baghdad, Riyadh, Delhi, Mumbai",881,506
+Mumbai,Black,"Karachi, Delhi, Chennai",896,573
+Delhi,Black,"Tehran, Karachi, Mumbai, Chennai, Kolkata",934,473
+Chennai,Black,"Mumbai, Delhi, Kolkata, Bangkok, Jakarta",947,590
+Kolkata,Black,"Delhi, Chennai, Bangkok, Hong Kong",993,487
+Bangkok,Red,"Kolkata, Chennai, Hong Kong, Ho Chi Minh City, Jakarta",1013,573
+Jakarta,Red,"Chennai, Bangkok, Ho Chi Minh City, Sydney",1018,667
+Ho Chi Minh City,Red,"Bangkok, Jakarta, Hong Kong, Manila",1068,610
+Manila,Red,"Hong Kong, Ho Chi Minh City, Sydney, San Francisco",1141,597
+Sydney,Red,"Jakarta, Manila, Los Angeles",1198,755
+Tokyo,Red,"Seoul, Shanghai, Osaka, San Francisco",1180,440
+Seoul,Red,"Tokyo, Beijing, Shanghai",1136,398
+Shanghai,Red,"Seoul, Tokyo, Beijing, Taipei, Hong Kong",1050,470
+Beijing,Red,"Seoul, Shanghai",1045,410
+Taipei,Red,"Shanghai, Hong Kong",1129,520
+Hong Kong,Red,"Taipei, Shanghai, Ho Chi Minh City, Bangkok, Kolkata",1051,540
+Osaka,Red,"Tokyo, Taipei",1210,490
